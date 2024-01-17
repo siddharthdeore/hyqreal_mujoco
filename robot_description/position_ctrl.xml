@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =================================================================================== -->
+<!-- |    EDITING THIS FILE BY HAND IS NOT RECOMMENDED                                 | -->
+<!-- |    @author : Siddharth Deore (sidddharth.deore@iit.it)                          | -->
+<!-- |    @copyright: DLS, Istituto Italiano di Tecnologia, Genova, Italy              | -->
+<!-- =================================================================================== -->
+
+<mujoco model="hyqreal">
+  <include file="hyqreal_body.xml" />
+  <include file="scene.xml" />
+
+  <actuator>
+    <position name="lf_haa_joint" joint="lf_haa_joint" ctrlrange="-0.733038 0.401426" forcerange="-173 173"/>
+    <position name="lf_hfe_joint" joint="lf_hfe_joint" ctrlrange="0.261799 2.18166" forcerange="-208 208"/>
+    <position name="lf_kfe_joint" joint="lf_kfe_joint" ctrlrange="-2.77001 -0.669857" forcerange="-249 249" />
+    <position name="rf_haa_joint" joint="rf_haa_joint" ctrlrange="-0.733038 0.401426" forcerange="-173 173"/>
+    <position name="rf_hfe_joint" joint="rf_hfe_joint" ctrlrange="0.261799 2.18166" forcerange="-208 208"/>
+    <position name="rf_kfe_joint" joint="rf_kfe_joint" ctrlrange="-2.77001 -0.669857" forcerange="-249 249" />
+    <position name="lh_haa_joint" joint="lh_haa_joint" ctrlrange="-0.733038 0.401426" forcerange="-173 173"/>
+    <position name="lh_hfe_joint" joint="lh_hfe_joint" ctrlrange="0.261799 2.18166" forcerange="-208 208"/>
+    <position name="lh_kfe_joint" joint="lh_kfe_joint" ctrlrange="-2.77001 -0.669857" forcerange="-249 249" />
+    <position name="rh_haa_joint" joint="rh_haa_joint" ctrlrange="-0.733038 0.401426" forcerange="-173 173"/>
+    <position name="rh_hfe_joint" joint="rh_hfe_joint" ctrlrange="0.261799 2.18166" forcerange="-208 208"/>
+    <position name="rh_kfe_joint" joint="rh_kfe_joint" ctrlrange="-2.77001 -0.669857" forcerange="-249 249" />
+  </actuator>
+
+</mujoco>
