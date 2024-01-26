@@ -30,7 +30,7 @@
     <body name="trunk">
       <site name="imu" pos="0 0 0" />
       <inertial pos="-0.015 -0.00186 -0.03465" quat="0.505823 0.493632 0.493714 0.506672" mass="59" diaginertia="9.49239 9.01712 1.49396"/>
-      <joint name="free_joint" type="free"/>
+      <joint name="free_joint" type="free" damping="0" armature="0" frictionloss="0"/>
       <geom quat="0 0 0 1" type="mesh" rgba="0.3 0.3 0.3 1" mesh="combined_torso"/>
       <body name="lf_hipassembly" pos="0.4435 0.139 0" quat="0 0.707107 0 -0.707107">
         <inertial pos="-0.010027 -0.010608 0.003644" quat="0.0172936 0.713902 0.11116 0.69115" mass="4.97328" diaginertia="0.0169092 0.0158089 0.0111439"/>
